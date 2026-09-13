@@ -1,0 +1,198 @@
+{
+  "source": "export/presentation.db",
+  "tables": {
+    "indicators": {
+      "rows": 167805,
+      "dropped": 0,
+      "csv": "henry-indicators.csv",
+      "jsonl": "henry-indicators.jsonl",
+      "bytes_csv": 23360939
+    },
+    "reports": {
+      "rows": 17763,
+      "dropped": 0,
+      "csv": "henry-reports.csv",
+      "jsonl": "henry-reports.jsonl",
+      "bytes_csv": 10427489
+    },
+    "incidents": {
+      "rows": 2414,
+      "dropped": 0,
+      "csv": "henry-incidents.csv",
+      "jsonl": "henry-incidents.jsonl",
+      "bytes_csv": 2423723
+    },
+    "events": {
+      "rows": 4782,
+      "dropped": 0,
+      "csv": "henry-events.csv",
+      "jsonl": "henry-events.jsonl",
+      "bytes_csv": 2548997
+    },
+    "artefacts": {
+      "rows": 72529,
+      "dropped": 1,
+      "csv": "henry-artefacts.csv",
+      "jsonl": "henry-artefacts.jsonl",
+      "bytes_csv": 9582839
+    },
+    "actors": {
+      "rows": 10,
+      "dropped": 0,
+      "csv": "henry-actors.csv",
+      "jsonl": "henry-actors.jsonl",
+      "bytes_csv": 6383
+    },
+    "indicator_reports": {
+      "rows": 68889,
+      "dropped": 0,
+      "csv": "henry-indicator_reports.csv",
+      "jsonl": "henry-indicator_reports.jsonl",
+      "bytes_csv": 9971172
+    },
+    "research": {
+      "rows": 5,
+      "dropped": 0,
+      "csv": "henry-research.csv",
+      "jsonl": "henry-research.jsonl",
+      "bytes_csv": 32598
+    },
+    "extractions": {
+      "rows": 14331,
+      "jsonl": "henry-extractions.jsonl",
+      "csv": null,
+      "bytes_csv": 16947045,
+      "dropped_fields": [
+        "author_slug",
+        "lastmod",
+        "lazarus_url",
+        "thumbnail"
+      ]
+    },
+    "texts": {
+      "rows": 14210,
+      "shards": [
+        "2009",
+        "2011",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "feed-references"
+      ],
+      "skipped_not_published": 3,
+      "skipped_unreadable": 0,
+      "bytes_csv": 164851345
+    }
+  },
+  "redactions": [
+    {
+      "table": "reports",
+      "column": "title",
+      "key": "follow-the-clues-everyday-is-lazarusday-NVC3r",
+      "before": "Follow the Clues: Everyday is lazarus.day"
+    },
+    {
+      "table": "reports",
+      "column": "title",
+      "key": "follow-the-clues-everyday-is-lazarusday-Sr1Xm",
+      "before": "Follow the Clues: Everyday is lazarus.day"
+    },
+    {
+      "table": "reports",
+      "column": "summary",
+      "key": "follow-the-clues-everyday-is-lazarusday-Sr1Xm",
+      "before": "This JSAC2025 conference presentation by JeongGak Lyu of South Korea's Financial Security Institute demonstrates IOC pivoting methodology using real Lazarus (AP"
+    },
+    {
+      "table": "reports",
+      "column": "hunt",
+      "key": "follow-the-clues-everyday-is-lazarusday-Sr1Xm",
+      "before": "[\"lazarus.day\", \"cryptocopedia\", \"npm\", \"IPMsg\", \"APT-C-26\", \"Lazarus\", \"TraderTraitor\", \"supply chain\", \"malicious npm\"]"
+    },
+    {
+      "where": "extraction.extraction.report_metadata.summary",
+      "before": "This JSAC2025 conference presentation by JeongGak Lyu of South Korea's Financial Security Institute demonstrates IOC pivoting methodology using real Lazarus (AP"
+    },
+    {
+      "where": "extraction.extraction.detection_and_hunting.keywords",
+      "before": "lazarus.day"
+    },
+    {
+      "where": "extraction.title",
+      "before": "Follow the Clues: Everyday is lazarus.day"
+    },
+    {
+      "where": "text:an-exploratory-analysis-of-the-dprk-cyber-threat-landscape-using-publicly-available-reports-aTvhS.text",
+      "before": "Abstract\nCyber activities have evolved to mirror real-world operations, prompting state-sponsored intelligence agencies to pivot swiftly to cyberspace. Notably,"
+    },
+    {
+      "where": "text:analysis-of-attack-activities-of-moonstone-sleet-a-division-of-apt-c-26-lazarus-group-7yYNB.text",
+      "before": "Analysis of attack activities of Moonstone sleet a division of APT-C-26 (Lazarus) group\nAPT-C-26 (Lazarus)\nAPT-C-26 (Lazarus) is a highly active advanced persis"
+    },
+    {
+      "where": "text:exploiting-trust-when-a-trusted-security-solution-becomes-a-dprk-trojan-horse-n0qa1.text",
+      "before": "national PKI •Real-time transfers via web browsers •US crypto-export restrictions led to adoption ActiveX controls •Three mandatory plugins became widely adopte"
+    },
+    {
+      "where": "text:follow-the-clues-everyday-is-lazarusday-NVC3r.title",
+      "before": "Follow the Clues: Everyday is lazarus.day"
+    },
+    {
+      "where": "text:follow-the-clues-everyday-is-lazarusday-NVC3r.text",
+      "before": "Follow the Clues\nEveryday is lazarus.day\n2025-01-21\nJeongGak Lyu @lazarusholic\n\nThe Evolving Threat Landscape\nFinancial Gain Political or Social Agendas\nCybercr"
+    },
+    {
+      "where": "text:inside-the-cyber-infrastructure-behind-dprk-fake-it-worker-operations-gODcf.text",
+      "before": "Inside the Cyber Infrastructure Behind DPRK Fake IT Worker Operations\nInside the Cyber Infrastructure Behind DPRK Fake IT Worker Operations\nSummary\nAfter our ar"
+    }
+  ],
+  "dropped_rows": [
+    {
+      "table": "artefacts",
+      "reason": "our own hunt term",
+      "value": "lazarus.day"
+    }
+  ],
+  "missing_tables": [],
+  "corpus": {
+    "generated": "2026-09-13T04:16:54Z",
+    "incidents": "2414",
+    "reports": "17763",
+    "indicators": "167805",
+    "actors": "10",
+    "extracted": "3601"
+  },
+  "redaction_counts": {
+    "extractions": 3,
+    "texts": 6
+  },
+  "truncated_documents": [
+    {
+      "slug": "%EC%95%85%EC%84%B1%EC%BD%94%EB%93%9C-%EB%B6%84%EC%84%9D-Ebj05",
+      "original_bytes": 85976352,
+      "kept_bytes": 2097152
+    },
+    {
+      "slug": "feed-wordtax-ink-setup-e8d0f1b3",
+      "original_bytes": 41475706,
+      "kept_bytes": 2097152
+    },
+    {
+      "slug": "retrohunting-apt37-north-korean-apt-used-vba-self-decode-technique-to-inject-rokrat-Oo14A",
+      "original_bytes": 3882001,
+      "kept_bytes": 2097152
+    }
+  ],
+  "verified_clean": true
+}
