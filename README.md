@@ -1,6 +1,6 @@
 # Henry — a DPRK threat intelligence corpus
 
-Snapshot of 2026-09-13T04:16:54Z. Rebuilt daily.
+Snapshot of 2026-09-14T04:17:07Z. Rebuilt daily.
 
 Reports, indicators, incidents, the structured extraction behind each
 report, and the full text of the documents themselves. Published for
@@ -15,13 +15,13 @@ JSON array columns to space-separated strings.
 
 | file | rows | size | what it is |
 |---|---:|---:|---|
-| `reports` | 17,763 | 10 MB | Threat reports: metadata, our summary, and the structured fields extracted from each. |
-| `texts` | 14,210 | 165 MB | Full document text, one JSON object per line, sharded by year. `henry-texts-feed-references` is different in kind: pages fetched from indicator feed URLs, including CDN assets and parked domains. Keep them apart in any analysis. |
-| `extractions` | 14,331 | 17 MB | The full structured extraction per report: victimology, MITRE techniques, malware, infrastructure, hunting guidance and the analytical reasoning behind them. |
-| `indicators` | 167,805 | 23 MB | Network, file and on-chain indicators. `disposition` says what each one IS -- see below; do not build a blocklist without reading it. |
+| `reports` | 17,771 | 10 MB | Threat reports: metadata, our summary, and the structured fields extracted from each. |
+| `texts` | 14,256 | 165 MB | Full document text, one JSON object per line, sharded by year. `henry-texts-feed-references` is different in kind: pages fetched from indicator feed URLs, including CDN assets and parked domains. Keep them apart in any analysis. |
+| `extractions` | 14,374 | 17 MB | The full structured extraction per report: victimology, MITRE techniques, malware, infrastructure, hunting guidance and the analytical reasoning behind them. |
+| `indicators` | 167,854 | 23 MB | Network, file and on-chain indicators. `disposition` says what each one IS -- see below; do not build a blocklist without reading it. |
 | `indicator_reports` | 68,889 | 10 MB | Which indicator appeared in which report, with the provenance tier of that link. |
-| `incidents` | 2,414 | 2 MB | Curated incidents, deduplicated. Several reports of one event are merged; `merged_count` and `merged_from` say so. |
-| `events` | 4,782 | 3 MB | The channel stream as filed, one row per report, undeduplicated. |
+| `incidents` | 1,921 | 2 MB | Curated incidents, deduplicated. Several reports of one event are merged; `merged_count` and `merged_from` say so. |
+| `events` | 4,787 | 3 MB | The channel stream as filed, one row per report, undeduplicated. |
 | `artefacts` | 72,529 | 10 MB | Hunting artefacts pulled from report prose: mutexes, paths, filenames, registry keys, yara/sigma terms. |
 | `actors` | 10 | 0 MB | The actor taxonomy, with per-actor counts. |
 | `research` | 5 | 0 MB | Precomputed corpus-level findings, each with the conditions under which it fails. |
@@ -35,8 +35,8 @@ with gzip.open('data/henry-reports.jsonl.gz', 'rt') as fh:
 ## Things that will mislead you
 
 **Most reports have no full text.** The corpus holds metadata and a
-summary for all 17,763 reports, and
-mirrored text for 14,210 documents.
+summary for all 17,771 reports, and
+mirrored text for 14,256 documents.
 Absence of text is not absence of a report.
 
 **`disposition` on an indicator is not severity.** `malicious` is
