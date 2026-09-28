@@ -2,25 +2,25 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 169426,
+      "rows": 169499,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 23581008
+      "bytes_csv": 23590053
     },
     "reports": {
-      "rows": 18126,
+      "rows": 18140,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 10576588
+      "bytes_csv": 10580816
     },
     "incidents": {
-      "rows": 1782,
+      "rows": 1783,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2308399
+      "bytes_csv": 2309367
     },
     "events": {
       "rows": 4902,
@@ -30,11 +30,11 @@
       "bytes_csv": 2614318
     },
     "artefacts": {
-      "rows": 73367,
+      "rows": 73388,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 9676687
+      "bytes_csv": 9678203
     },
     "actors": {
       "rows": 10,
@@ -44,18 +44,18 @@
       "bytes_csv": 6398
     },
     "indicator_reports": {
-      "rows": 70042,
+      "rows": 70063,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 10103783
+      "bytes_csv": 10108433
     },
     "research": {
       "rows": 5,
       "dropped": 0,
       "csv": "henry-research.csv",
       "jsonl": "henry-research.jsonl",
-      "bytes_csv": 32594
+      "bytes_csv": 32598
     },
     "extractions": {
       "rows": 15023,
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 14911,
+      "rows": 14931,
       "shards": [
         "2009",
         "2011",
@@ -90,9 +90,9 @@
         "2026",
         "feed-references"
       ],
-      "skipped_not_published": 1,
+      "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 169485396
+      "bytes_csv": 169672244
     }
   },
   "redactions": [
@@ -166,12 +166,12 @@
   ],
   "missing_tables": [],
   "corpus": {
-    "generated": "2026-09-27T04:18:01Z",
-    "incidents": "1782",
-    "reports": "18126",
-    "indicators": "169426",
+    "generated": "2026-09-28T04:17:20Z",
+    "incidents": "1783",
+    "reports": "18140",
+    "indicators": "169499",
     "actors": "10",
-    "extracted": "3657"
+    "extracted": "3658"
   },
   "redaction_counts": {
     "extractions": 3,
