@@ -2,32 +2,32 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 171492,
+      "rows": 171793,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 23848915
+      "bytes_csv": 23894800
     },
     "reports": {
-      "rows": 18431,
+      "rows": 18513,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 10626638
+      "bytes_csv": 10640597
     },
     "incidents": {
       "rows": 1801,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2329439
+      "bytes_csv": 2329627
     },
     "events": {
-      "rows": 4902,
+      "rows": 4938,
       "dropped": 0,
       "csv": "henry-events.csv",
       "jsonl": "henry-events.jsonl",
-      "bytes_csv": 2614318
+      "bytes_csv": 2623798
     },
     "artefacts": {
       "rows": 73388,
@@ -44,18 +44,18 @@
       "bytes_csv": 6398
     },
     "indicator_reports": {
-      "rows": 70768,
+      "rows": 70879,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 10232703
+      "bytes_csv": 10252627
     },
     "research": {
       "rows": 5,
       "dropped": 0,
       "csv": "henry-research.csv",
       "jsonl": "henry-research.jsonl",
-      "bytes_csv": 32598
+      "bytes_csv": 32630
     },
     "extractions": {
       "rows": 15023,
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 15181,
+      "rows": 15256,
       "shards": [
         "2009",
         "2011",
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 172281338
+      "bytes_csv": 173382355
     }
   },
   "redactions": [
@@ -166,10 +166,10 @@
   ],
   "missing_tables": [],
   "corpus": {
-    "generated": "2026-10-13T04:18:02Z",
+    "generated": "2026-10-14T04:38:31Z",
     "incidents": "1801",
-    "reports": "18431",
-    "indicators": "171492",
+    "reports": "18513",
+    "indicators": "171793",
     "actors": "10",
     "extracted": "3658"
   },
