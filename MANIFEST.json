@@ -2,32 +2,32 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 173693,
+      "rows": 173810,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 24148664
+      "bytes_csv": 24165094
     },
     "reports": {
-      "rows": 19007,
+      "rows": 19079,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 10720245
+      "bytes_csv": 10731697
     },
     "incidents": {
-      "rows": 1834,
+      "rows": 1842,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2361931
+      "bytes_csv": 2369792
     },
     "events": {
-      "rows": 4967,
+      "rows": 4983,
       "dropped": 0,
       "csv": "henry-events.csv",
       "jsonl": "henry-events.jsonl",
-      "bytes_csv": 2632238
+      "bytes_csv": 2637513
     },
     "artefacts": {
       "rows": 73388,
@@ -44,11 +44,11 @@
       "bytes_csv": 6398
     },
     "indicator_reports": {
-      "rows": 71964,
+      "rows": 71965,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 10383159
+      "bytes_csv": 10384990
     },
     "research": {
       "rows": 5,
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 15635,
+      "rows": 15695,
       "shards": [
         "2009",
         "2011",
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 178418305
+      "bytes_csv": 178906622
     }
   },
   "redactions": [
@@ -166,10 +166,10 @@
   ],
   "missing_tables": [],
   "corpus": {
-    "generated": "2026-11-02T04:18:18Z",
-    "incidents": "1834",
-    "reports": "19007",
-    "indicators": "173693",
+    "generated": "2026-11-03T04:38:53Z",
+    "incidents": "1842",
+    "reports": "19079",
+    "indicators": "173810",
     "actors": "10",
     "extracted": "3658"
   },
