@@ -2,66 +2,66 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 171013,
+      "rows": 171176,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 23718809
+      "bytes_csv": 23743972
     },
     "reports": {
-      "rows": 19202,
+      "rows": 19226,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 10995161
+      "bytes_csv": 11116073
     },
     "incidents": {
-      "rows": 1721,
+      "rows": 1725,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2325737
+      "bytes_csv": 2331650
     },
     "events": {
-      "rows": 5216,
+      "rows": 5222,
       "dropped": 0,
       "csv": "henry-events.csv",
       "jsonl": "henry-events.jsonl",
-      "bytes_csv": 2774545
+      "bytes_csv": 2779146
     },
     "artefacts": {
-      "rows": 76508,
+      "rows": 77733,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10013812
+      "bytes_csv": 10147927
     },
     "actors": {
       "rows": 10,
       "dropped": 0,
       "csv": "henry-actors.csv",
       "jsonl": "henry-actors.jsonl",
-      "bytes_csv": 6008
+      "bytes_csv": 6021
     },
     "indicator_reports": {
-      "rows": 55968,
+      "rows": 56209,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 7893283
+      "bytes_csv": 7913599
     },
     "research": {
       "rows": 5,
       "dropped": 0,
       "csv": "henry-research.csv",
       "jsonl": "henry-research.jsonl",
-      "bytes_csv": 27079
+      "bytes_csv": 27349
     },
     "extractions": {
-      "rows": 15988,
+      "rows": 16131,
       "jsonl": "henry-extractions.jsonl",
       "csv": null,
-      "bytes_csv": 18118982,
+      "bytes_csv": 18353326,
       "dropped_fields": [
         "author_slug",
         "lastmod",
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 15811,
+      "rows": 15941,
       "shards": [
         "2009",
         "2011",
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 180240491
+      "bytes_csv": 186828415
     }
   },
   "redactions": [
@@ -166,12 +166,12 @@
   ],
   "missing_tables": [],
   "corpus": {
-    "generated": "2026-11-05T04:19:43Z",
-    "incidents": "1721",
-    "reports": "19202",
-    "indicators": "171013",
+    "generated": "2026-11-06T04:19:14Z",
+    "incidents": "1725",
+    "reports": "19226",
+    "indicators": "171176",
     "actors": "10",
-    "extracted": "3829"
+    "extracted": "3902"
   },
   "redaction_counts": {
     "extractions": 3,
@@ -189,8 +189,18 @@
       "kept_bytes": 2097152
     },
     {
+      "slug": "new-mac-variant-of-lazarus-dacls-rat-distributed-via-trojanized-2fa-app-IHIuG",
+      "original_bytes": 9729853,
+      "kept_bytes": 2097152
+    },
+    {
       "slug": "retrohunting-apt37-north-korean-apt-used-vba-self-decode-technique-to-inject-rokrat-Oo14A",
       "original_bytes": 3882001,
+      "kept_bytes": 2097152
+    },
+    {
+      "slug": "writing-rules-for-non-objective-c-malware-upLLh",
+      "original_bytes": 2411502,
       "kept_bytes": 2097152
     }
   ],
