@@ -2,25 +2,25 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 90276,
+      "rows": 91196,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 12128365
+      "bytes_csv": 12253047
     },
     "reports": {
       "rows": 19239,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12283470
+      "bytes_csv": 12286929
     },
     "incidents": {
       "rows": 1772,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2426801
+      "bytes_csv": 2391746
     },
     "events": {
       "rows": 5226,
@@ -30,38 +30,38 @@
       "bytes_csv": 2781056
     },
     "artefacts": {
-      "rows": 81223,
+      "rows": 80341,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10592595
+      "bytes_csv": 10488299
     },
     "actors": {
       "rows": 10,
       "dropped": 0,
       "csv": "henry-actors.csv",
       "jsonl": "henry-actors.jsonl",
-      "bytes_csv": 6016
+      "bytes_csv": 6017
     },
     "indicator_reports": {
-      "rows": 64729,
+      "rows": 65660,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 9104221
+      "bytes_csv": 9213753
     },
     "research": {
       "rows": 5,
       "dropped": 0,
       "csv": "henry-research.csv",
       "jsonl": "henry-research.jsonl",
-      "bytes_csv": 27528
+      "bytes_csv": 27526
     },
     "extractions": {
-      "rows": 16702,
+      "rows": 16705,
       "jsonl": "henry-extractions.jsonl",
       "csv": null,
-      "bytes_csv": 18917888,
+      "bytes_csv": 18929021,
       "dropped_fields": [
         "author_slug",
         "lastmod",
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 190701585
+      "bytes_csv": 190701693
     }
   },
   "redactions": [
@@ -119,252 +119,6 @@
       "column": "hunt",
       "key": "follow-the-clues-everyday-is-lazarusday-Sr1Xm",
       "before": "[\"lazarus.day\", \"cryptocopedia\", \"npm\", \"IPMsg\", \"APT-C-26\", \"Lazarus\", \"TraderTraitor\", \"supply chain\", \"malicious npm\"]"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "bigone-2025-07",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $27m. Built from 1 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "deribit-2022-11",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $28m. Built from 2 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "bzx-2021-11",
-      "before": "Developer's mnemonic phrase compromised via phishing (Rekt: Slowmist's 'running total of funds lost ... ~$55M'). Held ZachXBT text is the post's introduction an"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "bzx-2021-11",
-      "before": "Developer's mnemonic phrase compromised via phishing (Rekt: Slowmist's 'running total of funds lost ... ~$55M'). Held ZachXBT text is the post's introduction an"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "bzx-2021-11",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $55m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "kucoin-2020-09",
-      "before": "Hot-wallet private keys. Chainalysis: KuCoin's CEO 'claimed that the exchange had recovered $204 million worth of the stolen funds'. No held authority statement"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "kucoin-2020-09",
-      "before": "Hot-wallet private keys. Chainalysis: KuCoin's CEO 'claimed that the exchange had recovered $204 million worth of the stolen funds'. No held authority statement"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "kucoin-2020-09",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $275m to $281m. Built from 0"
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "bitpoint-2019-07",
-      "before": "lazarus.day catalogues Bitpoint; no held source attributes it."
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "bitpoint-2019-07",
-      "before": "lazarus.day catalogues Bitpoint; no held source attributes it."
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "bitpoint-2019-07",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $32m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "bithumb-2019-03",
-      "before": "CONTESTED: the victim called it insider embezzlement (2019-03-30); the UN Panel (per Carnegie) listed it as DPRK-affiliated. Resolved to attributed because auth"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "bithumb-2019-03",
-      "before": "CONTESTED: the victim called it insider embezzlement (2019-03-30); the UN Panel (per Carnegie) listed it as DPRK-affiliated. Resolved to attributed because auth"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "bithumb-2019-03",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $20m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "zaif-2018-09",
-      "before": "lazarus.day catalogues Zaif (incident 'zaif'), but no held source attributes it; kept unattributed so the pipeline is not rewarded for marking it DPRK."
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "zaif-2018-09",
-      "before": "lazarus.day catalogues Zaif (incident 'zaif'), but no held source attributes it; kept unattributed so the pipeline is not rewarded for marking it DPRK."
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "zaif-2018-09",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $60m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "indodax-2018-09",
-      "before": "Victim identity rests on lazarus.day's catalogue entry 'indodax' (2018-09) for the DOJ's 'Indonesian cryptocurrency company'. Day not in held sources; event_dat"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "indodax-2018-09",
-      "before": "Victim identity rests on lazarus.day's catalogue entry 'indodax' (2018-09) for the DOJ's 'Indonesian cryptocurrency company'. Day not in held sources; event_dat"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "indodax-2018-09",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $25m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "cosmos-bank-2018-08",
-      "before": "ATM cash-out (about $11.5M, 28 countries) plus about $2M via SWIFT. CISA's HIDDEN COBRA FASTCash alert (2018-10-02, slug hidden-cobra-fastcash-campaign-bO7BU) d"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "cosmos-bank-2018-08",
-      "before": "ATM cash-out (about $11.5M, 28 countries) plus about $2M via SWIFT. CISA's HIDDEN COBRA FASTCash alert (2018-10-02, slug hidden-cobra-fastcash-campaign-bO7BU) d"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "cosmos-bank-2018-08",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $14m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "bithumb-2018-06",
-      "before": "Bithumb later revised the loss downward (about $17M in public reporting, not held). Bithumb's own notices of 2018-06-20/21 (Korean) announce the deposit/withdra"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "bithumb-2018-06",
-      "before": "Bithumb later revised the loss downward (about $17M in public reporting, not held). Bithumb's own notices of 2018-06-20/21 (Korean) announce the deposit/withdra"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "bithumb-2018-06",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $31m to $40m. Built from 0 a"
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "coinrail-2018-06",
-      "before": "lazarus.day links Coinrail to UN S/2024/215, whose text is not held; Asan lists it among 2018 attacks on Korean exchanges without naming a perpetrator. Unattrib"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "coinrail-2018-06",
-      "before": "lazarus.day links Coinrail to UN S/2024/215, whose text is not held; Asan lists it among 2018 attacks on Korean exchanges without naming a perpetrator. Unattrib"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "coinrail-2018-06",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $37m to $40m. Built from 0 a"
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "coincheck-2018-01",
-      "before": "523 million NEM (XEM). No held authority document states the attribution directly; the UN finding is second-hand (Carnegie) and the NIS view was 'possibly' (Reu"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "coincheck-2018-01",
-      "before": "523 million NEM (XEM). No held authority document states the attribution directly; the UN finding is second-hand (Carnegie) and the NIS view was 'possibly' (Reu"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "coincheck-2018-01",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $530m to $534m. Built from 0"
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "youbit-2017-12",
-      "before": "17% of assets; exchange filed for bankruptcy. No unit named -> actor_taxonomy null. The UN Panel of Experts report lazarus.day links to (S/2019/691) is catalogu"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "youbit-2017-12",
-      "before": "17% of assets; exchange filed for bankruptcy. No unit named -> actor_taxonomy null. The UN Panel of Experts report lazarus.day links to (S/2019/691) is catalogu"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "youbit-2017-12",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $16m. Built from 0 alert(s) "
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "bithumb-2017-06",
-      "before": "lazarus.day catalogues two 2017 Bithumb incidents (bithumb1 2017-02, bithumb2 2017-06); Carnegie lists 'In February 2017, at least $7 million ... The hackers al"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "bithumb-2017-06",
-      "before": "lazarus.day catalogues two 2017 Bithumb incidents (bithumb1 2017-02, bithumb2 2017-06); Carnegie lists 'In February 2017, at least $7 million ... The hackers al"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "bithumb-2017-06",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $7m. Built from 0 alert(s) a"
-    },
-    {
-      "table": "incidents",
-      "column": "summary",
-      "key": "yapizon-2017-04",
-      "before": "3,816 BTC. Same exchange hit again 2017-12 (youbit-2017-12). Bare 'Lazarus' (Group-IB) -> Core Labyrinth per vocab rule; the unit is not evidenced. The UN Panel"
-    },
-    {
-      "table": "incidents",
-      "column": "detail",
-      "key": "yapizon-2017-04",
-      "before": "3,816 BTC. Same exchange hit again 2017-12 (youbit-2017-12). Bare 'Lazarus' (Group-IB) -> Core Labyrinth per vocab rule; the unit is not evidenced. The UN Panel"
-    },
-    {
-      "table": "incidents",
-      "column": "caveat",
-      "key": "yapizon-2017-04",
-      "before": "Canonical incident from vocab/incidents.jsonl (not yet reviewed by the owner). Loss shown is the upper figure of the reported range $5m to $6m. Built from 0 ale"
     },
     {
       "where": "extraction.extraction.report_metadata.summary",
@@ -412,12 +166,13 @@
   ],
   "missing_tables": [],
   "corpus": {
-    "generated": "2026-11-07T03:12:49Z",
+    "schema_version": "3",
+    "generated": "2026-11-07T04:21:48Z",
     "incidents": "1772",
     "reports": "19239",
-    "indicators": "90276",
+    "indicators": "91196",
     "actors": "10",
-    "extracted": "4017"
+    "extracted": "4018"
   },
   "redaction_counts": {
     "extractions": 3,
