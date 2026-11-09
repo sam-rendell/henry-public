@@ -2,18 +2,18 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 125021,
+      "rows": 125360,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 16646003
+      "bytes_csv": 16692644
     },
     "reports": {
-      "rows": 19243,
+      "rows": 19247,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12290265
+      "bytes_csv": 12291537
     },
     "incidents": {
       "rows": 1775,
@@ -30,11 +30,11 @@
       "bytes_csv": 2782569
     },
     "artefacts": {
-      "rows": 79851,
+      "rows": 79844,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10439106
+      "bytes_csv": 10438613
     },
     "actors": {
       "rows": 10,
@@ -44,11 +44,11 @@
       "bytes_csv": 6016
     },
     "indicator_reports": {
-      "rows": 100501,
+      "rows": 101407,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 12791331
+      "bytes_csv": 12871646
     },
     "research": {
       "rows": 5,
@@ -58,10 +58,10 @@
       "bytes_csv": 27523
     },
     "extractions": {
-      "rows": 16711,
+      "rows": 16718,
       "jsonl": "henry-extractions.jsonl",
       "csv": null,
-      "bytes_csv": 18942055,
+      "bytes_csv": 18956047,
       "dropped_fields": [
         "author_slug",
         "lastmod",
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 16479,
+      "rows": 16486,
       "shards": [
         "2009",
         "2011",
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 190806237
+      "bytes_csv": 190880230
     }
   },
   "redactions": [
@@ -167,10 +167,10 @@
   "missing_tables": [],
   "corpus": {
     "schema_version": "5",
-    "generated": "2026-11-08T04:22:16Z",
+    "generated": "2026-11-09T04:22:50Z",
     "incidents": "1775",
-    "reports": "19243",
-    "indicators": "125021",
+    "reports": "19247",
+    "indicators": "125360",
     "actors": "10",
     "extracted": "4016"
   },
