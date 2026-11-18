@@ -2,39 +2,39 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 126147,
+      "rows": 126261,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 16796246
+      "bytes_csv": 16807560
     },
     "reports": {
-      "rows": 19356,
+      "rows": 19375,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12376846
+      "bytes_csv": 12388797
     },
     "incidents": {
-      "rows": 1801,
+      "rows": 1804,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2433396
+      "bytes_csv": 2438715
     },
     "events": {
-      "rows": 5296,
+      "rows": 5302,
       "dropped": 0,
       "csv": "henry-events.csv",
       "jsonl": "henry-events.jsonl",
-      "bytes_csv": 2815442
+      "bytes_csv": 2819268
     },
     "artefacts": {
-      "rows": 80525,
+      "rows": 80576,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10516162
+      "bytes_csv": 10522706
     },
     "actors": {
       "rows": 10,
@@ -44,11 +44,11 @@
       "bytes_csv": 6039
     },
     "indicator_reports": {
-      "rows": 102024,
+      "rows": 102078,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 12931723
+      "bytes_csv": 12937777
     },
     "research": {
       "rows": 5,
@@ -58,10 +58,10 @@
       "bytes_csv": 27556
     },
     "extractions": {
-      "rows": 16813,
+      "rows": 16828,
       "jsonl": "henry-extractions.jsonl",
       "csv": null,
-      "bytes_csv": 19090042,
+      "bytes_csv": 19116251,
       "dropped_fields": [
         "author_slug",
         "lastmod",
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 16581,
+      "rows": 16596,
       "shards": [
         "2009",
         "2011",
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 191978032
+      "bytes_csv": 192063282
     }
   },
   "redactions": [
@@ -133,6 +133,10 @@
       "before": "Follow the Clues: Everyday is lazarus.day"
     },
     {
+      "where": "extraction.extraction.analytical_deduction",
+      "before": "The placeholder IP address 118.193.68.242 in the control panel form exactly matches infrastructure previously attributed to Kimsuky in a Lazarus.day threat rese"
+    },
+    {
       "where": "text:an-exploratory-analysis-of-the-dprk-cyber-threat-landscape-using-publicly-available-reports-aTvhS.text",
       "before": "Abstract\nCyber activities have evolved to mirror real-world operations, prompting state-sponsored intelligence agencies to pivot swiftly to cyberspace. Notably,"
     },
@@ -153,6 +157,10 @@
       "before": "Follow the Clues\nEveryday is lazarus.day\n2025-01-21\nJeongGak Lyu @lazarusholic\n\nThe Evolving Threat Landscape\nFinancial Gain Political or Social Agendas\nCybercr"
     },
     {
+      "where": "text:inside-a-setup-panel-linked-to-suspected-kimsuky-phishing-infrastructure-QPJJs.text",
+      "before": "Executive summary\nVULONE identified a publicly reachable, Korean-language control panel designed to bring hostname selection, DNS configuration and HTTPS certif"
+    },
+    {
       "where": "text:inside-the-cyber-infrastructure-behind-dprk-fake-it-worker-operations-gODcf.text",
       "before": "Inside the Cyber Infrastructure Behind DPRK Fake IT Worker Operations\nInside the Cyber Infrastructure Behind DPRK Fake IT Worker Operations\nSummary\nAfter our ar"
     }
@@ -167,16 +175,16 @@
   "missing_tables": [],
   "corpus": {
     "schema_version": "5",
-    "generated": "2026-11-17T04:03:52Z",
-    "incidents": "1801",
-    "reports": "19356",
-    "indicators": "126147",
+    "generated": "2026-11-18T04:03:55Z",
+    "incidents": "1804",
+    "reports": "19375",
+    "indicators": "126261",
     "actors": "10",
-    "extracted": "4048"
+    "extracted": "4053"
   },
   "redaction_counts": {
-    "extractions": 3,
-    "texts": 6
+    "extractions": 4,
+    "texts": 7
   },
   "truncated_documents": [
     {
