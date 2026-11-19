@@ -2,53 +2,53 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 126261,
+      "rows": 126360,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 16807560
+      "bytes_csv": 16823739
     },
     "reports": {
-      "rows": 19375,
+      "rows": 19391,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12388797
+      "bytes_csv": 12405265
     },
     "incidents": {
-      "rows": 1804,
+      "rows": 1811,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2438715
+      "bytes_csv": 2448286
     },
     "events": {
-      "rows": 5302,
+      "rows": 5314,
       "dropped": 0,
       "csv": "henry-events.csv",
       "jsonl": "henry-events.jsonl",
-      "bytes_csv": 2819268
+      "bytes_csv": 2826101
     },
     "artefacts": {
-      "rows": 80576,
+      "rows": 80687,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10522706
+      "bytes_csv": 10536246
     },
     "actors": {
       "rows": 10,
       "dropped": 0,
       "csv": "henry-actors.csv",
       "jsonl": "henry-actors.jsonl",
-      "bytes_csv": 6039
+      "bytes_csv": 6040
     },
     "indicator_reports": {
-      "rows": 102078,
+      "rows": 102143,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 12937777
+      "bytes_csv": 12945823
     },
     "research": {
       "rows": 5,
@@ -58,10 +58,10 @@
       "bytes_csv": 27556
     },
     "extractions": {
-      "rows": 16828,
+      "rows": 16843,
       "jsonl": "henry-extractions.jsonl",
       "csv": null,
-      "bytes_csv": 19116251,
+      "bytes_csv": 19128914,
       "dropped_fields": [
         "author_slug",
         "lastmod",
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 16596,
+      "rows": 16611,
       "shards": [
         "2009",
         "2011",
@@ -92,10 +92,28 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 192063282
+      "bytes_csv": 192147945
     }
   },
   "redactions": [
+    {
+      "table": "reports",
+      "column": "publisher",
+      "key": "tracking-the-dprk-threat-actors-for-fun-and-profit-cP2VA",
+      "before": "lazarus.day"
+    },
+    {
+      "table": "reports",
+      "column": "source_url",
+      "key": "tracking-the-dprk-threat-actors-for-fun-and-profit-cP2VA",
+      "before": "https://lazarus.day/bsidespy26/"
+    },
+    {
+      "table": "reports",
+      "column": "deduction",
+      "key": "inside-a-setup-panel-linked-to-suspected-kimsuky-phishing-infrastructure-QPJJs",
+      "before": "[\"The placeholder IP address 118.193.68.242 in the control panel form exactly matches infrastructure previously attributed to Kimsuky in a Lazarus.day threat re"
+    },
     {
       "table": "reports",
       "column": "title",
@@ -137,6 +155,10 @@
       "before": "The placeholder IP address 118.193.68.242 in the control panel form exactly matches infrastructure previously attributed to Kimsuky in a Lazarus.day threat rese"
     },
     {
+      "where": "extraction.source_url",
+      "before": "https://lazarus.day/bsidespy26/"
+    },
+    {
       "where": "text:an-exploratory-analysis-of-the-dprk-cyber-threat-landscape-using-publicly-available-reports-aTvhS.text",
       "before": "Abstract\nCyber activities have evolved to mirror real-world operations, prompting state-sponsored intelligence agencies to pivot swiftly to cyberspace. Notably,"
     },
@@ -163,6 +185,14 @@
     {
       "where": "text:inside-the-cyber-infrastructure-behind-dprk-fake-it-worker-operations-gODcf.text",
       "before": "Inside the Cyber Infrastructure Behind DPRK Fake IT Worker Operations\nInside the Cyber Infrastructure Behind DPRK Fake IT Worker Operations\nSummary\nAfter our ar"
+    },
+    {
+      "where": "text:tracking-the-dprk-threat-actors-for-fun-and-profit-cP2VA.publisher",
+      "before": "lazarus.day"
+    },
+    {
+      "where": "text:tracking-the-dprk-threat-actors-for-fun-and-profit-cP2VA.source_url",
+      "before": "https://lazarus.day/bsidespy26/"
     }
   ],
   "dropped_rows": [
@@ -175,16 +205,16 @@
   "missing_tables": [],
   "corpus": {
     "schema_version": "5",
-    "generated": "2026-11-18T04:03:55Z",
-    "incidents": "1804",
-    "reports": "19375",
-    "indicators": "126261",
+    "generated": "2026-11-19T04:03:56Z",
+    "incidents": "1811",
+    "reports": "19391",
+    "indicators": "126360",
     "actors": "10",
-    "extracted": "4053"
+    "extracted": "4060"
   },
   "redaction_counts": {
-    "extractions": 4,
-    "texts": 7
+    "extractions": 5,
+    "texts": 9
   },
   "truncated_documents": [
     {
