@@ -1,6 +1,6 @@
 # Henry — a DPRK threat intelligence corpus
 
-Snapshot of 2026-11-24T04:03:49Z. Rebuilt daily.
+Snapshot of 2026-11-24T09:42:14Z. Rebuilt daily.
 
 Reports, indicators, incidents, the structured extraction behind each
 report, and the full text of the documents themselves. Published for
@@ -18,11 +18,11 @@ JSON array columns to space-separated strings.
 | `reports` | 19,446 | 12 MB | Threat reports: metadata, our summary, and the structured fields extracted from each. |
 | `texts` | 16,658 | 193 MB | Full document text, one JSON object per line, sharded by year. `henry-texts-feed-references` is different in kind: pages fetched from indicator feed URLs, including CDN assets and parked domains. Keep them apart in any analysis. |
 | `extractions` | 16,890 | 19 MB | The full structured extraction per report: victimology, MITRE techniques, malware, infrastructure, hunting guidance and the analytical reasoning behind them. |
-| `indicators` | 126,742 | 17 MB | Network, file and on-chain indicators. `disposition` says what each one IS -- see below; do not build a blocklist without reading it. |
-| `indicator_reports` | 102,240 | 13 MB | Which indicator appeared in which report, with the provenance tier of that link. |
+| `indicators` | 122,660 | 17 MB | Network, file and on-chain indicators. `disposition` says what each one IS -- see below; do not build a blocklist without reading it. |
+| `indicator_reports` | 98,009 | 13 MB | Which indicator appeared in which report, with the provenance tier of that link. |
 | `incidents` | 1,818 | 2 MB | Curated incidents, deduplicated. Several reports of one event are merged; `merged_count` and `merged_from` say so. |
 | `events` | 5,362 | 3 MB | The channel stream as filed, one row per report, undeduplicated. |
-| `artefacts` | 80,956 | 11 MB | Hunting artefacts pulled from report prose: mutexes, paths, filenames, registry keys, yara/sigma terms. |
+| `artefacts` | 81,066 | 11 MB | Hunting artefacts pulled from report prose: mutexes, paths, filenames, registry keys, yara/sigma terms. |
 | `actors` | 10 | 0 MB | The actor taxonomy, with per-actor counts. |
 | `research` | 5 | 0 MB | Precomputed corpus-level findings, each with the conditions under which it fails. |
 

@@ -2,18 +2,18 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 126742,
+      "rows": 122660,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 16878545
+      "bytes_csv": 16598463
     },
     "reports": {
       "rows": 19446,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12438810
+      "bytes_csv": 12441375
     },
     "incidents": {
       "rows": 1818,
@@ -30,25 +30,25 @@
       "bytes_csv": 2843415
     },
     "artefacts": {
-      "rows": 80956,
+      "rows": 81066,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10566781
+      "bytes_csv": 10580683
     },
     "actors": {
       "rows": 10,
       "dropped": 0,
       "csv": "henry-actors.csv",
       "jsonl": "henry-actors.jsonl",
-      "bytes_csv": 6041
+      "bytes_csv": 6132
     },
     "indicator_reports": {
-      "rows": 102240,
+      "rows": 98009,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 12954665
+      "bytes_csv": 12574114
     },
     "research": {
       "rows": 5,
@@ -92,7 +92,7 @@
       ],
       "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 192512079
+      "bytes_csv": 192512199
     }
   },
   "redactions": [
@@ -205,12 +205,12 @@
   "missing_tables": [],
   "corpus": {
     "schema_version": "5",
-    "generated": "2026-11-24T04:03:49Z",
+    "generated": "2026-11-24T09:42:14Z",
     "incidents": "1818",
     "reports": "19446",
-    "indicators": "126742",
+    "indicators": "122660",
     "actors": "10",
-    "extracted": "4073"
+    "extracted": "4075"
   },
   "redaction_counts": {
     "extractions": 5,
