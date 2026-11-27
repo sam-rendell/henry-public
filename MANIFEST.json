@@ -2,18 +2,18 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 122829,
+      "rows": 122906,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 16619301
+      "bytes_csv": 16629182
     },
     "reports": {
-      "rows": 19454,
+      "rows": 19455,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12447492
+      "bytes_csv": 12453723
     },
     "incidents": {
       "rows": 1818,
@@ -30,38 +30,38 @@
       "bytes_csv": 2843415
     },
     "artefacts": {
-      "rows": 81089,
+      "rows": 81194,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10582462
+      "bytes_csv": 10594030
     },
     "actors": {
       "rows": 10,
       "dropped": 0,
       "csv": "henry-actors.csv",
       "jsonl": "henry-actors.jsonl",
-      "bytes_csv": 6128
+      "bytes_csv": 6141
     },
     "indicator_reports": {
-      "rows": 98082,
+      "rows": 98111,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 12582084
+      "bytes_csv": 12586895
     },
     "research": {
       "rows": 5,
       "dropped": 0,
       "csv": "henry-research.csv",
       "jsonl": "henry-research.jsonl",
-      "bytes_csv": 27551
+      "bytes_csv": 27557
     },
     "extractions": {
-      "rows": 16898,
+      "rows": 16900,
       "jsonl": "henry-extractions.jsonl",
       "csv": null,
-      "bytes_csv": 19201974,
+      "bytes_csv": 19208394,
       "dropped_fields": [
         "author_slug",
         "lastmod",
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 16666,
+      "rows": 16667,
       "shards": [
         "2009",
         "2011",
@@ -90,9 +90,9 @@
         "2026",
         "feed-references"
       ],
-      "skipped_not_published": 0,
+      "skipped_not_published": 1,
       "skipped_unreadable": 0,
-      "bytes_csv": 192672240
+      "bytes_csv": 192677964
     }
   },
   "redactions": [
@@ -205,12 +205,12 @@
   "missing_tables": [],
   "corpus": {
     "schema_version": "5",
-    "generated": "2026-11-26T04:04:20Z",
+    "generated": "2026-11-27T04:03:55Z",
     "incidents": "1818",
-    "reports": "19454",
-    "indicators": "122829",
+    "reports": "19455",
+    "indicators": "122906",
     "actors": "10",
-    "extracted": "4078"
+    "extracted": "4081"
   },
   "redaction_counts": {
     "extractions": 5,
