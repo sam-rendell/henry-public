@@ -2,25 +2,25 @@
   "source": "export/presentation.db",
   "tables": {
     "indicators": {
-      "rows": 122906,
+      "rows": 123047,
       "dropped": 0,
       "csv": "henry-indicators.csv",
       "jsonl": "henry-indicators.jsonl",
-      "bytes_csv": 16629182
+      "bytes_csv": 16647011
     },
     "reports": {
-      "rows": 19455,
+      "rows": 19460,
       "dropped": 0,
       "csv": "henry-reports.csv",
       "jsonl": "henry-reports.jsonl",
-      "bytes_csv": 12453723
+      "bytes_csv": 12458459
     },
     "incidents": {
       "rows": 1818,
       "dropped": 0,
       "csv": "henry-incidents.csv",
       "jsonl": "henry-incidents.jsonl",
-      "bytes_csv": 2462329
+      "bytes_csv": 2462362
     },
     "events": {
       "rows": 5362,
@@ -30,11 +30,11 @@
       "bytes_csv": 2843415
     },
     "artefacts": {
-      "rows": 81194,
+      "rows": 81228,
       "dropped": 1,
       "csv": "henry-artefacts.csv",
       "jsonl": "henry-artefacts.jsonl",
-      "bytes_csv": 10594030
+      "bytes_csv": 10597718
     },
     "actors": {
       "rows": 10,
@@ -44,11 +44,11 @@
       "bytes_csv": 6141
     },
     "indicator_reports": {
-      "rows": 98111,
+      "rows": 98169,
       "dropped": 0,
       "csv": "henry-indicator_reports.csv",
       "jsonl": "henry-indicator_reports.jsonl",
-      "bytes_csv": 12586895
+      "bytes_csv": 12595053
     },
     "research": {
       "rows": 5,
@@ -70,7 +70,7 @@
       ]
     },
     "texts": {
-      "rows": 16667,
+      "rows": 16672,
       "shards": [
         "2009",
         "2011",
@@ -90,9 +90,9 @@
         "2026",
         "feed-references"
       ],
-      "skipped_not_published": 1,
+      "skipped_not_published": 0,
       "skipped_unreadable": 0,
-      "bytes_csv": 192677964
+      "bytes_csv": 192747584
     }
   },
   "redactions": [
@@ -205,12 +205,12 @@
   "missing_tables": [],
   "corpus": {
     "schema_version": "5",
-    "generated": "2026-11-27T04:03:55Z",
+    "generated": "2026-11-28T04:03:56Z",
     "incidents": "1818",
-    "reports": "19455",
-    "indicators": "122906",
+    "reports": "19460",
+    "indicators": "123047",
     "actors": "10",
-    "extracted": "4081"
+    "extracted": "4083"
   },
   "redaction_counts": {
     "extractions": 5,
